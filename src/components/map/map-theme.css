@@ -56,3 +56,11 @@
   font-family: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
   font-size: 11px;
 }
+
+/*
+ * Mapbox GL paints a second logo via ::after on compact attribution, on top of
+ * the required bottom-left wordmark. Keep the wordmark; drop the duplicate.
+ */
+.mapboxgl-ctrl-attrib.mapboxgl-compact::after {
+  display: none;
+}

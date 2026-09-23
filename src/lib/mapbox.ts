@@ -5,7 +5,7 @@
  */
 export const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN ?? "";
 
-export const MAP_STYLE = "mapbox://styles/grafa/cmb5lcz4m00hp01sy4uamgt72";
+export const MAP_STYLE = "mapbox://styles/grafa/cmud4k9f500a001sqb3ho163o";
 
 /** Downtown-ish Portland, carried over from the original index.html. */
 export const DEFAULT_VIEW = {
